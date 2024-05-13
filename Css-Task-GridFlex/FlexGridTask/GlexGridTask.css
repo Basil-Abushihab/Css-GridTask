@@ -1,0 +1,42 @@
+#gridContainer{
+    display: grid;
+    background-color: #BEE4F1;
+    border-radius: 10%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 600px ;
+    column-gap: 5px;
+    row-gap: 5px;
+
+}
+div{
+    text-align: center;
+    align-content: center;
+    font-size: xx-large;
+    color: white;
+}
+#header{
+    background-color: #5EBBAC;
+    grid-column:1 / span 3;
+
+}
+#aside{
+background-color: #75D46C;
+}
+#ArticleContainer{
+    grid-column: 2 / -1 ;
+    background-color: orange;
+}
+#flexImage{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+}
+.image{
+    width: 30%;
+    height: 200px;
+    background-color: rgb(240, 198, 126);
+}
+#footer{
+    background-color:#5EBBAC ;
+    grid-column: 1 / -1;
+}
