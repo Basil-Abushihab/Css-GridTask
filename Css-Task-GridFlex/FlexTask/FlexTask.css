@@ -1,0 +1,43 @@
+body{
+    background-color: #B7FAFC;
+
+}
+img{
+    position: relative;
+    display: inline;
+    top: 30px;
+}
+h2{position: relative;
+    display: inline-block;
+    bottom: 20px;
+    left: 10px;
+}
+p{
+
+    position: relative;
+    bottom: 30px;
+    left: 22px;
+    width: 50%;
+    margin: auto;
+    font-size: large;
+}
+
+.flexContainer{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 30%;
+    background-color: #CFD28B;
+    border-radius: 10%;
+    align-items: center;
+    box-shadow: 10px 10px 90px grey;
+
+}
+.UserItem{
+    position: relative;
+    width: 80%;
+
+}
+.UserItem:not(.UserItem:nth-child(4)){
+    border-bottom: white 1px solid;
+}
